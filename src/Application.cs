@@ -14,7 +14,7 @@
         }
         public void Run()
         {
-            string path = "./data/engineconfig.json";
+            string path = "../../../data/engineconfig.json";
             List<Engine> engineList = InputOutputEngine.readEnginParamsJSON(path);
             foreach (var engine in engineList)
             {
